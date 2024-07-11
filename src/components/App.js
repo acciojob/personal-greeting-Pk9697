@@ -14,7 +14,7 @@ const App = () => {
 			{/* Do not remove the main div */}
 			<label htmlFor='name'>Enter your name: </label>
       <input type='text' id='name' name='name' value={name} onChange={handleChange} />
-      {name && <p>Hello {name}!</p>}
+      <p>Hello {name}!</p>
 		</div>
 	)
 }
